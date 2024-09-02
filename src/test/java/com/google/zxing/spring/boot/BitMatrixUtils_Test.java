@@ -6,10 +6,9 @@ import java.io.FileOutputStream;
 
 import com.google.zxing.spring.boot.utils.BitMatrixUtils;
 
-import junit.framework.TestCase;
 import net.coobird.thumbnailator.Thumbnails;
 
-public class BitMatrixUtils_Test extends TestCase {
+public class BitMatrixUtils_Test {
 
 	ZxingQrCodeTemplate qrCodeTemplate = new ZxingQrCodeTemplate();
 

@@ -1,12 +1,6 @@
 package com.google.zxing.spring.boot;
 
-import org.junit.FixMethodOrder;
-import org.junit.runners.MethodSorters;
-
-import junit.framework.TestCase;
-
-@FixMethodOrder(MethodSorters.NAME_ASCENDING)
-public class BarCodeTest extends TestCase {
+public class BarCodeTest {
 	
 	ZxingBarCodeTemplate barCodeTemplate = new ZxingBarCodeTemplate();
 		
