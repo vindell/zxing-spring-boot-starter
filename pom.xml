@@ -356,8 +356,11 @@
 	</profiles>
 
 	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<java.version>17</java.version>
 		<!-- Maven Plugin versions -->
-		<maven.version>3.6.3</maven.version>
+		<maven.version>3.9.9</maven.version>
 		<maven.compiler.source>${java.version}</maven.compiler.source>
 		<maven.compiler.target>${java.version}</maven.compiler.target>
 		<maven-antrun-plugin.version>3.1.0</maven-antrun-plugin.version>
@@ -384,7 +387,6 @@
 		<commons-logging.version>1.3.3</commons-logging.version>
 		<commons-text.version>1.12.0</commons-text.version>
 		<thumbnailator.version>0.4.19</thumbnailator.version>
-		<java.version>17</java.version>
 		<zxing.version>3.5.3</zxing.version>
 	</properties>
 
